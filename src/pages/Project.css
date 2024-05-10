@@ -1,0 +1,27 @@
+.container {
+  text-align: center;
+}
+
+.container h2 {
+  font-size: 40px;
+}
+
+.repo-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.repo-list li {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.repo-list li a {
+  text-decoration: none;
+  color: #21b77e;
+  font-size: 20px;
+}
+
+.repo-list li a:hover {
+  color: #02f99a;
+}

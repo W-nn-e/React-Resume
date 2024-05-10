@@ -1,0 +1,26 @@
+.nav-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  padding: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: var(--text-color-default);
+  font-weight: bold;
+  border: 2px solid var(--text-color-default);
+  border-radius: 5px;
+  padding: 5px 10px;
+  transition: border-color 0.1s, color 0.1s;
+}
+
+.nav-link:hover {
+  color: #21b77e; 
+}
+
+li {
+  display: inline;
+  margin-right: 20px;
+}
